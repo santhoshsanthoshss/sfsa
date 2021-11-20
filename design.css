@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.program{
+    
+    width: 100%;
+    background-color: aqua;
+    height: 150px;
+    
+    
+}
+
+.program h1{
+
+    margin-left: 20%;
+}
+
+.program p{
+    margin-left: 20%;
+}
+
+.logo{
+    margin-left: 20%;  
+}
+
+.profile img{
+    width: 25%;
+    margin-left: 5%;
+}
+
+.profile h1{
+    margin-top: 15px;
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+.area p{
+    width: 60%;
+    margin-left: 33%;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+}
+
+@media only screen and(min-width: 1024px) {
+    .profile img{
+        width: 100%;
+    }
+
+    .area p{
+        width: 600px;
+    }
+    
+}
